@@ -55,3 +55,5 @@ system("composite -geometry +680+145  #{images[5]}  honda15.jpg  honda66.jpg")
 ################################################################################3
 
 system("convert -delay 50 honda*6.jpg `date +%m%d%H`_honda.mov")
+
+#ffmpeg  -i 030513_honda.mov -i Micro_JULIE.mp3 -acodec copy -vcodec flv movie.avi

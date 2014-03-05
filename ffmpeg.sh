@@ -7,3 +7,5 @@ ffmpeg -i movie.mp4 -vn -a codec copy sound.m4a
 ffmpeg -loop 1  -i background.png -i Micro_JULIE.mp3 -acodec copy -vcodec flv movie.avi
 
 ffmpeg -loop 1  -i 030416.gif -i Micro_JULIE.mp3 -acodec copy -vcodec flv movie.avi
+
+ffmpeg  -i 030513_honda.mov -i Micro_JULIE.mp3 -acodec copy -vcodec flv movie.avi
